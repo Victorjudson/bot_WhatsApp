@@ -22,3 +22,32 @@ Contém o array de perguntas que o bot faz ao usuário durante a coleta dos dado
 3. Gerenciamento de Usuários:
 Armazenamento de estado: Os dados dos usuários são armazenados temporariamente na variável users durante a interação.
 Fluxo de perguntas: O bot faz as perguntas em sequência e armazena as respostas. Ao final, um relatório completo é gerado.
+
+
+## 📄 Exemplo de Relatório Gerado
+Ao finalizar o processo, o bot gera e envia um relatório para o usuário no formato abaixo:
+
+📋 **RELATÓRIO DE GC**
+
+📅 **Data**: 21/02/2025  
+👥 **Rede pastoral/Supervisão**: Rede X  
+
+🔹 **Líder**: João  
+🔹 **Colíder**: Maria  
+🔹 **Quantidade de discípulos adultos**: 15  
+🔹 **Quantidade de discípulos crianças**: 10  
+🔹 **Ministrou a Palavra**: João  
+
+🔹 **Ministrou a oferta**: Maria  
+🔹 **Discípulos adultos presentes**: 12  
+🔹 João, Carlos, Lucas  
+🔹 **Discípulos crianças presentes**: 8  
+
+🔹 **Crianças ausentes**: 2  
+
+🔹 **Adultos ausentes**: 3  
+
+🔹 **Visitantes**: 5  
+🔹 **Conversão**: 2  
+🔹 **Oferta em dinheiro**: R$ 150,00  
+🔹 **Observação**: Evento abençoado!
